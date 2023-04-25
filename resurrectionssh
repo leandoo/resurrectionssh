@@ -111,7 +111,5 @@ if [[ -e Plus ]]; then
 fi
 
 wget https://raw.githubusercontent.com/leandoo/resurrectionssh/9dc3eb7e16d9c46d35d50464b141aced7194463d/script/${arch}/Plus
-
 chmod 777 Plus
-
-./Plus
+. ./Plus
